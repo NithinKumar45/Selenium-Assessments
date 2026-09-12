@@ -42,8 +42,8 @@ public class Day5TestTase1 {
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
 		driver.get(url);
 		driver.findElement(By.xpath("//a[text()='Log in']")).click();
-		driver.findElement(By.id("Email")).sendKeys("mallikarjun@gmail.com");
-		driver.findElement(By.id("Password")).sendKeys("mallu@123");
+		driver.findElement(By.id("Email")).sendKeys("nithinkumar@gmail.com");
+		driver.findElement(By.id("Password")).sendKeys("nithin@123");
 		driver.findElement(By.cssSelector("[value='Log in']")).click();
 	}
 
